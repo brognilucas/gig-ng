@@ -1,0 +1,10 @@
+
+.center { 
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 2em;
+}
+svg { 
+    font-size: 4em;
+}

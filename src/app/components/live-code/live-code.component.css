@@ -1,0 +1,35 @@
+.live-content {
+  text-align: center;
+  justify-content: center;
+  vertical-align: middle;
+  display: flex;
+  flex-direction: column;
+}
+
+.live-item::before {
+  content: "·";
+  color: red;
+  font-size: 2em;
+  padding-top: 4em;
+}
+
+.live-item {
+  font-size: 1em;
+  text-align: center;
+  vertical-align: middle;
+  font-weight: bold;
+}
+
+.live-text {
+  font-size: 1em;
+  vertical-align: middle;
+}
+
+.code {
+  align-self: center;
+  border: 1px solid #cacaca;
+  width: 15em;
+  height: 4em;
+  text-align: center;
+  padding-top: 1em;
+}

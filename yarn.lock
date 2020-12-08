@@ -121,6 +121,13 @@
     ora "5.0.0"
     rxjs "6.6.2"
 
+"@angular-redux/store@^10.0.0":
+  version "10.0.0"
+  resolved "https://registry.yarnpkg.com/@angular-redux/store/-/store-10.0.0.tgz#21a829a982379b48d4e8493266693beaf09a639a"
+  integrity sha512-oLaj4XSObz1jmpA2qc9WptllEDJPaM0n6AVZLP5GAWH4ytf4nc7hjb3J79xebVm/+elN3D0kyYxO9kNIFL7HYw==
+  dependencies:
+    tslib "^1.9.0"
+
 "@angular/animations@~10.1.6":
   version "10.1.6"
   resolved "https://registry.yarnpkg.com/@angular/animations/-/animations-10.1.6.tgz#21fdac5a9d2b98409636466ebd798a36ed6d38d4"
@@ -1225,6 +1232,11 @@
   resolved "https://registry.yarnpkg.com/@types/node/-/node-12.19.8.tgz#efd6d1a90525519fc608c9db16c8a78f7693a978"
   integrity sha512-D4k2kNi0URNBxIRCb1khTnkWNHv8KSL1owPmS/K5e5t8B2GzMReY7AsJIY1BnP5KdlgC4rj9jk2IkDMasIE7xg==
 
+"@types/prop-types@^15.7.3":
+  version "15.7.3"
+  resolved "https://registry.yarnpkg.com/@types/prop-types/-/prop-types-15.7.3.tgz#2ab0d5da2e5815f94b0b9d4b95d1e5f243ab2ca7"
+  integrity sha512-KfRL3PuHmqQLOG+2tGpRO26Ctg+Cq1E01D2DMriKEATHgWLfeNDmq9e29Q9WIky0dQ3NPkd1mzYH8Lm936Z9qw==
+
 "@types/q@^0.0.32":
   version "0.0.32"
   resolved "https://registry.yarnpkg.com/@types/q/-/q-0.0.32.tgz#bd284e57c84f1325da702babfc82a5328190c0c5"
@@ -1524,6 +1536,13 @@ alphanum-sort@^1.0.0:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/alphanum-sort/-/alphanum-sort-1.0.2.tgz#97a1119649b211ad33691d9f9f486a8ec9fbe0a3"
   integrity sha1-l6ERlkmyEa0zaR2fn0hqjsn74KM=
+
+angular2-toaster@^11.0.1:
+  version "11.0.1"
+  resolved "https://registry.yarnpkg.com/angular2-toaster/-/angular2-toaster-11.0.1.tgz#3484277d8cc7c5ceb6035f50c874094660a1e64b"
+  integrity sha512-IRXE5zujPMNOhckcp+Hk2n+UrKSrlAviz55wGvSd9ECrqsSRjgh148UEtgsqkcYQ8leKcybZ4d0lrueDuQofNA==
+  dependencies:
+    tslib "^2.0.0"
 
 ansi-colors@4.1.1:
   version "4.1.1"
@@ -1959,6 +1978,11 @@ boolbase@^1.0.0, boolbase@~1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/boolbase/-/boolbase-1.0.0.tgz#68dff5fbe60c51eb37725ea9e3ed310dcc1e776e"
   integrity sha1-aN/1++YMUes3cl6p4+0xDcwed24=
+
+bootstrap@^4.5.3:
+  version "4.5.3"
+  resolved "https://registry.yarnpkg.com/bootstrap/-/bootstrap-4.5.3.tgz#c6a72b355aaf323920be800246a6e4ef30997fe6"
+  integrity sha512-o9ppKQioXGqhw8Z7mah6KdTYpNQY//tipnkxppWhPbiSWdD+1raYsnhwEZjkTHYbGee4cVQ0Rx65EhOY/HNLcQ==
 
 brace-expansion@^1.1.7:
   version "1.1.11"
@@ -5332,7 +5356,7 @@ loglevel@^1.6.8:
   resolved "https://registry.yarnpkg.com/loglevel/-/loglevel-1.7.1.tgz#005fde2f5e6e47068f935ff28573e125ef72f197"
   integrity sha512-Hesni4s5UkWkwCGJMQGAh71PaLUmKFM60dHvq0zi/vDhhrzuk+4GgNbTXJ12YYQJn6ZKBDNIjYcuQGKudvqrIw==
 
-loose-envify@^1.0.0:
+loose-envify@^1.0.0, loose-envify@^1.4.0:
   version "1.4.0"
   resolved "https://registry.yarnpkg.com/loose-envify/-/loose-envify-1.4.0.tgz#71ee51fa7be4caec1a63839f7e682d8132d30caf"
   integrity sha512-lyuxPGr/Wfhrlem2CL/UcnUc1zcqKAImBDzukY7Y5F/yQiNdko6+fRLevlw1HgMySw7f611UIY408EtxRSoK3Q==
@@ -5748,6 +5772,13 @@ next-tick@~1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/next-tick/-/next-tick-1.0.0.tgz#ca86d1fe8828169b0120208e3dc8424b9db8342c"
   integrity sha1-yobR/ogoFpsBICCOPchCS524NCw=
+
+ngx-toastr@^13.2.0:
+  version "13.2.0"
+  resolved "https://registry.yarnpkg.com/ngx-toastr/-/ngx-toastr-13.2.0.tgz#3ef047c977a7d0fb67fed9338b8f5add3c87b356"
+  integrity sha512-XU+wACX5hxwOJ4BtPMAUExQmYbjfvH3C/R4vcC9QK/dX2Zw+2w9tS9m4W6TUFyR92xZ/tGLBtsqRdrDRn3fJCw==
+  dependencies:
+    tslib "^2.0.0"
 
 nice-try@^1.0.4:
   version "1.0.5"
@@ -6822,6 +6853,15 @@ promise-retry@^1.1.1:
     err-code "^1.0.0"
     retry "^0.10.0"
 
+prop-types@^15.7.2:
+  version "15.7.2"
+  resolved "https://registry.yarnpkg.com/prop-types/-/prop-types-15.7.2.tgz#52c41e75b8c87e72b9d9360e0206b99dcbffa6c5"
+  integrity sha512-8QQikdH7//R2vurIJSutZ1smHYTcLpRWEOlHnzcWHmBYrOGUysKwSsrC89BCiFj3CbrfJ/nXFdJepOVrY1GCHQ==
+  dependencies:
+    loose-envify "^1.4.0"
+    object-assign "^4.1.1"
+    react-is "^16.8.1"
+
 protoduck@^5.0.1:
   version "5.0.1"
   resolved "https://registry.yarnpkg.com/protoduck/-/protoduck-5.0.1.tgz#03c3659ca18007b69a50fd82a7ebcc516261151f"
@@ -7006,6 +7046,11 @@ raw-loader@4.0.1:
     loader-utils "^2.0.0"
     schema-utils "^2.6.5"
 
+react-is@^16.8.1:
+  version "16.13.1"
+  resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.13.1.tgz#789729a4dc36de2999dc156dd6c1d9c18cea56a4"
+  integrity sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==
+
 read-cache@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/read-cache/-/read-cache-1.0.0.tgz#e664ef31161166c9751cdbe8dbcf86b5fb58f774"
@@ -7079,6 +7124,32 @@ readdirp@~3.5.0:
   integrity sha512-cMhu7c/8rdhkHXWsY+osBhfSy0JikwpHK/5+imo+LpeasTF8ouErHrlYkwT0++njiyuDvc7OFY5T3ukvZ8qmFQ==
   dependencies:
     picomatch "^2.2.1"
+
+redux-devtools-instrument@^1.10.0:
+  version "1.10.0"
+  resolved "https://registry.yarnpkg.com/redux-devtools-instrument/-/redux-devtools-instrument-1.10.0.tgz#036caf79fa1e5f25ec4bae38a9af4f08c69e323a"
+  integrity sha512-X8JRBCzX2ADSMp+iiV7YQ8uoTNyEm0VPFPd4T854coz6lvRiBrFSqAr9YAS2n8Kzxx8CJQotR0QF9wsMM+3DvA==
+  dependencies:
+    lodash "^4.17.19"
+    symbol-observable "^1.2.0"
+
+redux-devtools@^3.7.0:
+  version "3.7.0"
+  resolved "https://registry.yarnpkg.com/redux-devtools/-/redux-devtools-3.7.0.tgz#5bc2d50227d94ce95c79dbfdf2ffc7a23c553553"
+  integrity sha512-Lnx3UX7mnJij2Xs+RicPK1GyKkbuodrCKtfYmJsN603wC0mc99W//xCAskGVNmRhIXg4e57m2k1CyX0kVzCsBg==
+  dependencies:
+    "@types/prop-types" "^15.7.3"
+    lodash "^4.17.19"
+    prop-types "^15.7.2"
+    redux-devtools-instrument "^1.10.0"
+
+redux@^4.0.5:
+  version "4.0.5"
+  resolved "https://registry.yarnpkg.com/redux/-/redux-4.0.5.tgz#4db5de5816e17891de8a80c424232d06f051d93f"
+  integrity sha512-VSz1uMAH24DM6MF72vcojpYPtrTUu3ByVWfPL1nPfVRb5mZVTve5GnNCUV53QM/BZ66xfWrm0CTWoM+Xlz8V1w==
+  dependencies:
+    loose-envify "^1.4.0"
+    symbol-observable "^1.2.0"
 
 reflect-metadata@^0.1.2:
   version "0.1.13"
@@ -8147,7 +8218,7 @@ svgo@^1.0.0:
     unquote "~1.1.1"
     util.promisify "~1.0.0"
 
-symbol-observable@1.2.0:
+symbol-observable@1.2.0, symbol-observable@^1.2.0:
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/symbol-observable/-/symbol-observable-1.2.0.tgz#c22688aed4eab3cdc2dfeacbb561660560a00804"
   integrity sha512-e900nM8RRtGhlV36KGEU9k65K3mPb1WV70OdjfxlG2EAuM1noi/E/BaW/uMhL7bPEssK8QV57vN3esixjUvcXQ==

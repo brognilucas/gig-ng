@@ -1,0 +1,10 @@
+<div class="col-md-6 offset-md-3">
+  <live-code></live-code>
+</div>
+
+<div class="col-md-8 offset-md-2">
+  
+  <payments-form (submit)="addPayment($event)" [disabled]="!hasCode()"></payments-form>
+  <table-payments [payments]="getPayments()"></table-payments>
+  
+</div>

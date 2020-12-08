@@ -1,0 +1,14 @@
+<table *ngIf="payments.length" class="table center table-bordered">
+  <tr>
+    <th>Payment</th>
+    <th>Amount</th>
+    <th>Code</th>
+    <th>Grid</th>
+  </tr>
+  <tr *ngFor="let row of payments; let i = index">
+    <td>{{ row.payment }}</td>
+    <td>{{ row.amount }}</td>
+    <td>{{ row.code }}</td>
+    <td>{{ row.totalSize }}</td>
+  </tr>
+</table>

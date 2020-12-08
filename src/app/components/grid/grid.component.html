@@ -1,0 +1,14 @@
+<table class="table center table-bordered">
+  <tr>
+    <td></td>
+    <td *ngFor="row; of: matrix; let i = index">
+      {{ i }}
+    </td>
+  </tr>
+  <tr *ngFor="let row of matrix; let i = index">
+    <td>{{ i }}</td>
+    <td *ngFor="let item of row">
+      {{ item }}
+    </td>
+  </tr>
+</table>

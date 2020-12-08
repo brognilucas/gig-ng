@@ -1,0 +1,60 @@
+<form class="row" [formGroup]="form">
+  <div class="col-auto">
+    <label for="payment" class="visually-hidden">Payment</label>
+    <input
+      type="text"
+      class="form-control"
+      formControlName="payment"
+      placeholder="Payment"
+      [ngClass]="{
+        'is-invalid': form.get('payment').touched && form.get('payment').invalid
+      }"
+    />
+    <div
+      class="invalid-feedback"
+      *ngIf="form.get('payment').touched && form.get('payment').invalid"
+    >
+      Payment is required
+    </div>
+  </div>
+  <div class="col-auto">
+    <label for="amount" class="visually-hidden">Amount</label>
+    <input
+      type="text"
+      class="form-control"
+      id="amount"
+      formControlName="amount"
+      placeholder="Amount"
+    />
+    <div
+      class="invalid-feedback"
+      *ngIf="
+        form.get('amount').touched &&
+        form.get('amount').invalid &&
+        form.get('amount').errors.required
+      "
+    >
+      Amount is required
+    </div>
+    <div
+      class="invalid-feedback"
+      *ngIf="
+        form.get('amount').touched &&
+        form.get('amount').invalid &&
+        form.get('amount').errors.pattern
+      "
+    >
+      Amount should be numeric
+    </div>
+  </div>
+  <div class="col-auto btn-align">
+    <button
+      type="button"
+      (click)="submitForm()"
+      [disabled]="form.invalid && !disabled"
+      class="btn btn-primary mb-3"
+    >
+      Add
+    </button>
+  </div>
+</form>
